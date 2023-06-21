@@ -1,0 +1,261 @@
+@import url(./variables.css);
+
+.business-landing-header {
+  background-color: var(--dark-grey);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  color: white;
+  padding: 1.5rem 4rem;
+  align-items: center; 
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ 
+
+.main {
+  width: 80%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.business-landing-header-title {
+  font-size: 24px;
+}
+
+.content {
+  margin-top: 6rem;
+  align-items: center;
+}
+
+.content-left {
+  font-size: 36px;
+  padding-right: 1.5rem;
+  min-width:  45%
+}
+
+.content-left p {
+  padding-bottom: 2rem;
+}
+
+.content-right {
+  /* margin-top: 4rem; */
+}
+
+
+
+.features {
+  margin-top: 7rem;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.feature { 
+  margin-right: 1rem;
+}
+
+.feature:last-child {
+  margin-right: 0rem;
+}
+
+.feature-title {
+  margin-left: 1rem;
+}
+
+.testimonial {
+  margin-top: 7rem;
+  background-color: var(--blue);
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 22px;
+  min-height: 17rem;
+}
+.testimonial p {
+  width: 40%;
+  text-align: center;
+}
+
+.contact-us {
+  margin-top: 7rem;
+}
+
+.contact-us > h1 {
+  text-align: center;
+  font-size: 48px;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.contact-us div h1 {
+  margin-bottom: 1rem;
+}
+.contact-us div p {
+  margin-bottom: 0.5rem;
+}
+
+
+.map {
+  height: 400px;
+}
+
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  background-color: var(--dark-grey);
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.map {
+  margin-top: 3rem;
+
+}
+
+@media (max-width: 768px) {
+  .store-front {
+   width: 100%;
+   height: 100%;
+  }
+  .content-left {
+    font-size: 30px; 
+  }
+
+  .testimonial p {
+    width: 50%; 
+  }
+
+  .contact-us > h1 { 
+    font-size: 46px; 
+  }
+
+  .features { 
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .feature {
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 530px) {
+  .business-landing-header {
+    padding: 1.5rem;
+  }
+
+  .main {
+    width: 85%; 
+    padding: 0rem 1rem;
+  }
+
+  .content {
+    margin-top: 3rem;
+
+  }
+
+  .features {
+    margin-top: 3rem;
+    font-size: 18px; 
+  }
+
+  .testimonial {
+    margin-top: 3rem; 
+  }
+
+  .feature-image {
+    width: 40px;
+    height: 40px;
+  }
+
+  .testimonial p {
+    font-size: 18px;
+    width: 75%;
+  }
+ 
+  .contact-us   { 
+   margin-top: 3rem;
+  }
+  .contact-us > h1 { 
+    font-size: 36px; 
+  }
+
+  .contact-left h1, .contact-right h1 {
+    font-size: 24px;
+  }
+
+  .map {
+    height: 350px;
+  }
+
+  .contact-us > h1 { 
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-us div h1 {
+    font-size: 18px;
+  }
+
+  .button {
+    padding: 0rem; 
+  }
+
+  .footer-logo {
+    width: 150px;
+  }
+  
+
+}
+
+@media (max-width: 480px) {
+
+  .business-landing-header-title {
+    font-size: 18px;
+  }
+  
+  .main {
+    width: 100%; 
+    padding: 0rem 1rem;
+  }
+ 
+  .content-left {
+    font-size: 24px; 
+  }
+
+  .content-left p {
+    padding-bottom: 1rem;
+  }
+ 
+.map {
+  height: 300px;
+}
+  
+
+  
+}
+
+@media (max-width: 420px) {
+  .content-left {
+    font-size: 18px; 
+  }
+   
+  
+}
+
+@media (max-width: 360px) {
+  .content-left {
+    font-size: 18px; 
+  }
+   
+  
+}
