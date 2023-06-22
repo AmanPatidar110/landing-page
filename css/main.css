@@ -27,4 +27,14 @@ body {
   border: none;
   border-radius: 8px;
 }
+
+@media (max-width: 530px) {
+   
  
+
+  body, .button {
+    font-size: 18px !important;
+  }
+ 
+  
+}
