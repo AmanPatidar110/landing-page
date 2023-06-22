@@ -156,7 +156,7 @@
 @media (max-width: 530px) {
 
   .business-landing-header {
-    padding: 1rem 0;
+    padding: 2rem 0;
    flex-direction: column;
    justify-content: stretch;
    align-items: center;
@@ -164,7 +164,7 @@
   }
   .business-landing-header-title {
    margin-top: 0;
-   font-size: 24px;
+   font-size: 32px;
   }
  .business-landing-header p{
   width: 85%; 
@@ -181,7 +181,7 @@
   }
 
   .content {
-    margin-top: 3rem;
+    margin-top: 2rem;
     flex-direction: column;
     position: relative;
     margin-bottom: 7rem;
@@ -209,14 +209,16 @@
     justify-content: flex-start;
   }
 
-  
-  .feature-image {
-    width: 40px;
-    height: 40px;
+  .feature {
+    margin-top: 2rem;
   }
-  .feature-image:not(:first-child) {
-  
-    height: 50px;
+  .feature-image {
+    width: 60px;
+    height: 60px;
+  }
+  .feature:last-child .feature-image{
+
+    height: 70px;
   }
   
   
