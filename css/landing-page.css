@@ -14,6 +14,10 @@
   font-weight: bold;
 }
 
+.whatsapp-button {
+  background-color: #25D366; color: white; font-size: 16px;
+  height: 50px;
+}
  
 
 .main {
@@ -34,7 +38,8 @@
 .content-left {
   font-size: 36px;
   padding-right: 1.5rem;
-  min-width:  45%
+  min-width:  45%;
+  max-width: 60%;
 }
 
 .content-left p {
@@ -150,43 +155,78 @@
 }
 @media (max-width: 530px) {
   .business-landing-header {
-    padding: 1.5rem;
+    padding: 1.5rem 0;
+   flex-direction: column;
+   justify-content: stretch;
+   align-items: center;
+  }
+  .business-landing-header button, .business-landing-header p{
+  width: 90%;
+  margin-top: 1rem;
+  text-align: center;
   }
 
   .main {
-    width: 85%; 
+    width: 90%; 
     padding: 0rem 1rem;
   }
 
   .content {
     margin-top: 3rem;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 7rem;
+    align-items: flex-start;
 
   }
+  .content-left button {
+    position: absolute;
+    bottom: -4rem;
+    left: 0;
+    width: 100%;
+
+  }
+
 
   .features {
     margin-top: 3rem;
     font-size: 18px; 
+    justify-content: flex-start;
   }
 
-  .testimonial {
-    margin-top: 3rem; 
-  }
-
+  
   .feature-image {
     width: 40px;
     height: 40px;
   }
-
+  .feature-image:not(:first-child) {
+  
+    height: 50px;
+  }
+  
+  
+  .testimonial {
+    margin-top: 3rem; 
+    min-height: 14rem;
+  }
   .testimonial p {
     font-size: 18px;
-    width: 75%;
+    width: 90%;
   }
  
   .contact-us   { 
    margin-top: 3rem;
+   flex-direction: column;
+  }
+  .contact-us > div  {  
+   flex-direction: column;
   }
   .contact-us > h1 { 
     font-size: 36px; 
+    text-align: left;
+  }
+  .contact-right {
+    margin-top: 2rem;
   }
 
   .contact-left h1, .contact-right h1 {
@@ -218,10 +258,7 @@
 }
 
 @media (max-width: 480px) {
-
-  .business-landing-header-title {
-    font-size: 18px;
-  }
+ 
   
   .main {
     width: 100%; 

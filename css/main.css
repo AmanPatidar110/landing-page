@@ -27,15 +27,4 @@ body {
   border: none;
   border-radius: 8px;
 }
-
-@media (max-width: 530px) {
-   
-  .button {
-    padding: 0.5rem; 
-  }
-
-  body {
-    font-size: 14px;
-  }
-  
-}
+ 
