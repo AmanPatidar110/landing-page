@@ -155,14 +155,21 @@
 }
 @media (max-width: 530px) {
   .business-landing-header {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
    flex-direction: column;
    justify-content: stretch;
    align-items: center;
   }
-  .business-landing-header button, .business-landing-header p{
-  width: 90%;
-  margin-top: 1rem;
+  .business-landing-header-title {
+   margin-top: 0;
+  }
+ .business-landing-header p{
+  width: 90%; 
+  text-align: center;
+  }
+  .business-landing-header button{
+    margin-top: 1rem;
+  width: 90%; 
   text-align: center;
   }
 
@@ -181,7 +188,7 @@
   }
   .content-left button {
     position: absolute;
-    bottom: -4rem;
+    bottom: -5rem;
     left: 0;
     width: 100%;
 
