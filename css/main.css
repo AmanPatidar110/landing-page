@@ -26,6 +26,10 @@ body {
   outline: none;
   border: none;
   border-radius: 8px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 530px) {
@@ -33,7 +37,7 @@ body {
  
 
   body, .button {
-    font-size: 18px !important;
+    font-size: 20px !important;
   }
  
   
