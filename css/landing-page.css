@@ -111,13 +111,12 @@
 
 .footer {
   width: 85%;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
+  margin: 3rem auto 2rem auto; 
   background-color: var(--dark-grey);
-  width: 100%;
   border-radius: 10px;
   color: white;
   padding: 2rem 1rem;
+  max-width: 1000px;
 }
 
 
@@ -224,11 +223,12 @@
     min-width: 100%;
     max-width: none;
     padding-right: 0;
-    
+
   }
-  .content-left p{ 
+
+  .content-left p {
     font-size: 28px;
-    
+
   }
 
   .content-left button {
@@ -239,10 +239,10 @@
 
   }
 
-  
-.content-right {
-  margin-top: 1rem;
-}
+
+  .content-right {
+    margin-top: 1rem;
+  }
 
 
   .features {
@@ -315,8 +315,8 @@
   .footer {
     flex-direction: column;
     text-align: center;
-  width: 95%;
-  margin: 2rem auto 1rem auto;
+    width: 93%;
+    margin: 2rem auto 1rem auto;
 
   }
 
@@ -336,6 +336,7 @@
   .footer-left .footer-logo {
     width: 180px;
   }
+
   .footer-right .footer-logo {
     width: 150px;
   }
