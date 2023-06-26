@@ -1,3 +1,4 @@
+@import url(//db.onlinewebfonts.com/c/e89eb1cff9eb261b0d77a4dea27f1ef1?family=HelveticaW01-Light);
 body {
   padding: 0;
   margin: 0;
@@ -31,6 +32,7 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  font-family: "HelveticaW01-Light";
 }
 
 @media (max-width: 530px) {
