@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Urban Libaaz</title>
+  <title>{{BUSINESS_NAME}}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 
   <link href="./css/landing-page.css" rel="stylesheet" />
@@ -22,11 +22,14 @@
 
   <div class="business-landing-header space-between">
 
-    <p class="business-landing-header-title">Urban Libaaz</p>
-    <button class="button whatsapp-button" style="background-color: #25D366; color: white">
-      Send Whatsapp
-      <img src="./images/whatsapp.svg" alt="W" width="25px" height="25px" style="margin-left: 1rem;">
-    </button>
+    <p class="business-landing-header-title">{{BUSINESS_NAME}}</p>
+    <a href="https://wa.me/{{PHONE_NUMBER}}" target="_blank" style="text-decoration: none;">
+
+      <button class="button whatsapp-button" style="background-color: #25D366; color: white">
+        Send Whatsapp
+        <img src="./images/whatsapp.svg" alt="W" width="25px" height="25px" style="margin-left: 1rem;">
+      </button>
+    </a>
 
   </div>
   <div class="main">
@@ -34,36 +37,37 @@
     <!-- Tagline & Logo   -->
     <div class="space-between content">
       <div class="content-left">
-        <p>Ethnics To Feel The Love Classic Western Glam
-          Desire For Jewellery</p>
-        <button class="button whatsapp-button" style="background-color: #25D366; color: white">
-          Send Whatsapp
-          <img src="./images/whatsapp.svg" alt="W" width="25px" height="25px" style="margin-left: 1rem;">
-        </button>
+        <p>{{TAGLINE}}</p>
+        <a href="https://wa.me/{{PHONE_NUMBER}}" target="_blank" style="text-decoration: none;">
+          <button class="button whatsapp-button" style="background-color: #25D366; color: white">
+            Send Whatsapp
+            <img src="./images/whatsapp.svg" alt="W" width="25px" height="25px" style="margin-left: 1rem;">
+          </button>
+        </a>
       </div>
       <div class="content-right">
-        <img class="store-front" src="./images/logo.webp" width="100%" height="320px" alt="store front" />
+        <img class="store-front" src="{{STORE_IMAGE_LOCATION}}" width="100%" height="320px" alt="store front" />
       </div>
     </div>
 
     <!-- Features  -->
     <div class="features">
       <div class="feature justify-center align-center">
-        <img src="./images/feature1.svg" width="50px" height="50px" alt="business feature 1" class="feature-image" />
+        <img src="./images/feature1.svg" width="60px" alt="business feature 1" class="feature-image" />
         <div class="feature-title">
-          Fashion To Inspire
+          {{FEATURE_1}}
         </div>
       </div>
       <div class="feature justify-center align-center">
-        <img src="./images/feature2.svg" width="50px" height="50px" alt="business feature 2" class="feature-image" />
+        <img src="./images/feature2.svg" width="60px" alt="business feature 2" class="feature-image" />
         <div class="feature-title">
-          It's Time to catch the Trend
+          {{FEATURE_2}}
         </div>
       </div>
       <div class="feature justify-center align-center">
-        <img src="./images/feature3.svg" width="50px" height="50px" alt="business feature 3" class="feature-image" />
+        <img src="./images/feature3.svg" width="70px" alt="business feature 3" class="feature-image" />
         <div class="feature-title">
-          Accessories To Fall In Love
+          {{FEATURE_3}}
         </div>
       </div>
 
@@ -73,9 +77,7 @@
     <div class="testimonial justify-center align-center">
 
       <p>
-
-        "[Testimonial] I'm a paragraph. Click here to add your own text and edit
-        me. It's easy."
+        {{TESTIMONIAL}}
       </p>
     </div>
 
@@ -85,24 +87,23 @@
       <div class="space-between">
         <div class="contact-left">
           <h1>Address</h1>
-          <p>Sr.No. 116, Chikhali Moshi Road, Jadhav Wadi, </p>
-          <p> Pimpri-Chinchwad</p>
-          <p>Pune</p>
-          <p>Maharashtra</p>
+          <p>{{ADDRESS_LINE_1}}</p>
+          <p>{{ADDRESS_LINE_2}}</p>
+          <p>{{CITY}}</p>
+          <p>{{STATE}}</p>
         </div>
         <div class="contact-right">
           <h1>Contact</h1>
-          <p>+91 8427429824</p>
-          <p>email@gmail.com</p>
+          <p>{{PHONE_NUMBER}}</p>
+          <p>{{EMAIL}}</p>
         </div>
       </div>
     </div>
 
     <!--  Map -- -->
     <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.880547964576!2d77.5936983148229!3d12.971599990868403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167b0c0b0e5d%3A0x7b3b6a3b6b6b6b6b!2sCashwise%20Technologies!5e0!3m2!1sen!2sin!4v1623169128809!5m2!1sen!2sin"
-        width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
+      <iframe src="https://maps.google.com/maps?q={{LATITUDE}},{{LONGITUDE}}&hl=es;z=14&amp;output=embed" width="100%"
+        height="100%" style="border: 0" allowfullscreen="" loading="lazy"></iframe>
     </div>
 
     <!-- Footer  -->
@@ -116,11 +117,11 @@
         <img width="25px" height="20px" src="./images/heart.svg" alt="love" style="margin: 0 6px;" />
         in India by
       </p>
-      <img src="./images/cashwise.svg" class="footer-logo" alt="Cashwise" width="200px" height="50px" />
+      <img src="./images/cashwise.svg" class="footer-logo" alt="Unnati" width="170px" />
     </div>
     <div class="footer-right">
-      <p>Cashwise is a Free GST filing app</p>
-      <img src="./images/play-store.webp" class="footer-logo" alt="Cashwise" width="124px" height="41px" />
+      <p>Unnati is a Free GST filing app</p>
+      <img src="./images/play-store.webp" class="footer-logo" alt="Unnati" width="124px" />
     </div>
   </div>
 
